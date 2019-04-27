@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0483395C2274576F0015DF31 /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0483395A2274576F0015DF31 /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04833964227457980015DF31 /* FrameworkNickClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 04833962227457980015DF31 /* FrameworkNickClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04833965227457980015DF31 /* FrameworkNickClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 04833963227457980015DF31 /* FrameworkNickClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048339572274576F0015DF31 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0483395A2274576F0015DF31 /* MyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFramework.h; sourceTree = "<group>"; };
 		0483395B2274576F0015DF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04833962227457980015DF31 /* FrameworkNickClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkNickClass.h; sourceTree = "<group>"; };
+		04833963227457980015DF31 /* FrameworkNickClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkNickClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				0483395A2274576F0015DF31 /* MyFramework.h */,
 				0483395B2274576F0015DF31 /* Info.plist */,
+				04833962227457980015DF31 /* FrameworkNickClass.h */,
+				04833963227457980015DF31 /* FrameworkNickClass.m */,
 			);
 			path = MyFramework;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0483395C2274576F0015DF31 /* MyFramework.h in Headers */,
+				04833964227457980015DF31 /* FrameworkNickClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04833965227457980015DF31 /* FrameworkNickClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +282,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -297,6 +306,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
