@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "MyFramework"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of MyFramework."
+  spec.summary      = "MyFramework."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 #spec.description  = <<-DESC
 #                   DESC
 
-#s.homepage = '.'
+  spec.homepage = 'https://github.com/baoyuanyong'
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #
 
 #spec.source       = { :git => "http://EXAMPLE/MyFramework.git", :tag => "#{spec.version}" }
-s.source           = { :git => 'git@gitlab.alibaba-inc.com:eleme-wireless-ios/APFConfigManager.git', :tag => s.version.to_s }
+spec.source           = { :git => 'git@github.com:baoyuanyong/MyFramework.git', :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
